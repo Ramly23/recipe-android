@@ -102,7 +102,7 @@ fun LayoutWithButton(onButtonClick: () -> Unit) {
                 text = stringResource(R.string.food_name),
                 style = TextStyle(
                     fontFamily = FontFamily(Font(R.font.poppins_semibold)),
-                    fontSize = 40.sp,
+                    fontSize = 38.sp,
                     color = Color.DarkGray,
                     textDecoration = TextDecoration.Underline,
                 ),
@@ -176,7 +176,7 @@ fun LayoutWithText(onTextClick: () -> Unit) {
                 text = stringResource(R.string.food_name),
                 style = TextStyle(
                     textDecoration = TextDecoration.Underline,
-                    fontSize = 40.sp,
+                    fontSize = 34.sp,
                     color = Color.DarkGray,
                     fontFamily = FontFamily(Font(R.font.poppins_semibold)),
                 ),
@@ -239,6 +239,7 @@ fun LayoutWithText(onTextClick: () -> Unit) {
                 Text (
                     text = "Go Back To Main Page",
                     color = Color(0xFFFFFFFF),
+                    fontSize = 12.sp,
                     fontFamily = FontFamily(Font(R.font.poppins_semibold))
                 )
             }
